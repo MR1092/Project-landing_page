@@ -45,6 +45,7 @@ a:hover {
     display: flex;
     background: #1F2937;
     justify-content: space-evenly;
+    height: 350px;
 }
 
 .placeholder {
@@ -84,16 +85,48 @@ button{
 }
 
 .section-three {
-    background: #F9FAF8;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
 }
 
 .title {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 900;
     color: #1f2937;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.text {
+    font-size: 12px;
+    text-align: center;
 
 }
