@@ -82,3 +82,18 @@ button{
     border-radius: 6px;
     padding: 4px 16px;
 }
+
+.section-three {
+    background: #F9FAF8;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937;
+
+}
