@@ -113,8 +113,8 @@ button{
 .section-four {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px
+    gap: 20px;
+    height: 150px;
 }
 
 .info {
@@ -129,4 +129,66 @@ button{
     font-size: 12px;
     text-align: center;
 
+}
+
+.section-five {
+    background: #E5E7EB;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-three {
+    margin: 50px 0;
+    width: 600px;
+}
+
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor {
+    display: flex;
+    justify-content: right;
+    font-weight: 800;
+}
+
+.section-six {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background: #3882f6;
+    border-radius: 5px;
+    height: 120px;
+    width: 750px;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+}
+.action-subtext {
+    color: #F9FAF8;
+}
+
+.button-two {
+    margin-top: 10px;
+    background: #3882f6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding: 4px 16px;
+}
+
+.button-two-text {
+    font-weight: 800;
+    border: 1px solid #F9FAF8;
 }
